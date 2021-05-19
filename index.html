@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mauro Quinteros</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Se debe colocar los media queries en orden para que funcione -->
+    <!-- <link rel="stylesheet" href="./css/responsive.css" media="screen and (max-width: 768px)"> -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- otra manera de aplicar media queries -->
+    <!-- <style>
+      @media screen and (max-width: 768px){
+      body{
+        border: 30px solid green;
+      }
+      }
+    </style> -->
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-button"></i>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="/">
+          <span>MAU</span>
+          <span>RO.</span>
+        </a>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a
+                href="http://github.com/mauroquinteroos"
+                target="_blank"
+                class="link"
+                >Descargar CV</a
+              >
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>Mauro Quinteros</strong> <br />
+          Desarrollador <strong>Web</strong> con <br />
+          pasión por <strong>aprender algo nuevo</strong>
+        </h1>
+        <img
+          class="hero-image"
+          src="images/dev-background.jpg"
+          alt="imagen hero"
+          width="400"
+          height="300"
+        />
+      </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+      <div class="container">
+        <h2>Proyectos Destacados</h2>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Platzi Badge</h3>
+            <h6 class="project-course">React / Sass / JavaScript / API</h6>
+            <p class="project-date">
+              <small><strong>Fecha: </strong> 01/07/20</small>
+            </p>
+            <p class="project-url">
+              <small>
+                <strong>Puedes verlo en: </strong>
+                <a href="https://platzibadges.vercel.app" target="_blank"
+                  >platzibadges.vercel.app</a
+                >
+              </small>
+            </p>
+            <p class="project-description">
+              Platzi Badge se desarrollo con el objetivo de ofrecer los
+              organizadores de evento, una forma accesible de agregar a los
+              invitados de los eventos organizados usando tecnologías actuales
+              en el desarrollo frontend como React y Sass.
+            </p>
+          </div>
+          <figure class="project-image-wrapper">
+            <img
+              src="images/platzi-badges.png"
+              class="project-image"
+              alt="imagen proyecto"
+            />
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Japi Express</h3>
+            <h6 class="project-course">Angular / TypeScript / HTML5 / CSS3</h6>
+            <p class="project-date">
+              <small><strong>Fecha: </strong> 01/07/18</small>
+            </p>
+            <p class="project-url">
+              <small>
+                <strong>Puedes verlo en: </strong>
+                <a href="https://japiapp.vercel.app/login" target="_blank"
+                  >japiapp.vercel.app</a
+                >
+              </small>
+            </p>
+            <p class="project-description">
+              Japi Express es una aplicación desarrollado para la gestión de
+              pedidos de la empresa Japi. Ofreciendo herramientas como generar
+              pedidos, repartir los pedidos a sus motorizados y ofrecer de
+              administración de los pedidos.
+            </p>
+          </div>
+          <figure class="project-image-wrapper">
+            <img
+              src="images/japi-app.png"
+              class="project-image"
+              alt="imagen proyecto"
+            />
+          </figure>
+        </article>
+      </div>
+    </section>
+    <div id="experiencia">
+      <div class="container">
+        <h2 class="experience-title">Más sobre mi Experiencia</h2>
+      </div>
+    </div>
+    <section class="experience">
+      <div class="container">
+        <article class="event">
+          <figure class="event-image-wrapper">
+            <img
+              src="images/bookmark-app.png"
+              class="event-image"
+              alt="imagen experiencia"
+            />
+          </figure>
+          <div class="event-details">
+            <h3 class="event-title">Bookmark Landing Page</h3>
+            <p class="event-description">
+              HTML5 - JavaScript - CSS3 - Metodología BEM - Responsive Design
+            </p>
+            <a
+              class="event-url"
+              href="https://bookmark-landing-page-blue.vercel.app/"
+              target="_blank"
+              >Ver Website</a
+            >
+          </div>
+        </article>
+        <article class="event">
+          <!-- <figure class="event-image-wrapper">
+            <div class="flex-iframe">
+              <iframe
+                class="youtube-video"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/LoKvxCSZw5w"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </figure> -->
+          <figure class="event-image-wrapper">
+            <img
+              src="images/platzi-video.png"
+              class="event-image"
+              alt="imagen experiencia"
+            />
+          </figure>
+          <div class="event-details">
+            <h3 class="event-title">Platzi Video</h3>
+            <p class="event-description">
+              JavaScript - HTML5 - Animaciones CSS - Responsive Design
+            </p>
+            <a
+              class="event-url"
+              href="https://movie-api-seven.vercel.app/"
+              target="_blank"
+              >Ver Website</a
+            >
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-image-wrapper">
+            <!-- <video src="./blog.mp4" controls class="video"></video> -->
+            <img
+              src="images/weather-app.png"
+              class="event-image"
+              alt="imagen experiencia"
+            />
+          </figure>
+          <div class="event-details">
+            <h3 class="event-title">Weather APP</h3>
+            <p class="event-description">
+              JavaScript - HTML5 - CSS3 - Weather API
+            </p>
+            <a
+              class="event-url"
+              href="https://weather-mquinteros.vercel.app/"
+              target="_blank"
+              >Ver Website</a
+            >
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-image-wrapper">
+            <img
+              src="images/api-app.png"
+              class="event-image"
+              alt="imagen experiencia"
+            />
+          </figure>
+          <div class="event-details">
+            <h3 class="event-title">Platzi Badges API</h3>
+            <p class="event-description">
+              JavaScript - NodeJS - Express - JSON - HTTP Methods
+            </p>
+            <a
+              class="event-url"
+              href="https://api-badges.herokuapp.com/api/attendants"
+              target="_blank"
+              >Consultar Web Service</a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <!-- <form action="" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="text" placeholder="Déjame tu email" id="email" />
+          <button>Enviar</button>
+        </form> -->
+        <div class="social">
+          <a
+            href="https://twitter.com/mauroquinteroos"
+            target="_blank"
+            class="social-link twitter"
+          ></a>
+          <a
+            href="https://github.com/mauroquinteroos"
+            target="_blank"
+            class="social-link github"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/mauroquinteroos/"
+            target="_blank"
+            class="social-link linkedin"
+          ></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Nunca Pares de Aprender!</p>
+        </div>
+        <div>
+          <p>
+            Desarrollado 💙 por
+            <a href="https://twitter.com/mauroquinteroos" target="_blank"
+              >@mauroquinteroos</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
